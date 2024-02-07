@@ -1,0 +1,17 @@
+inherits = "dark_plus"
+
+"function.macro" = { fg = "macro", modifiers = ["bold"] }
+"function.special" = { fg = "macro" }
+"function.builtin" = { fg = "macro" }
+"special" = { fg = "macro" }
+"type.builtin" = { fg = "blue", modifiers = ["bold"] }
+"variable.parameter" = { fg = "light_gray" }
+"namespace" = { fg = "gray" }
+
+"ui.virtual.whitespace" = { fg = "#2F2F2F" }
+
+[palette]
+macro = "#beb7ff"
+blue = "#569CD6"
+light_gray = "#D4D4D4"
+gray = "#a8a8a8"

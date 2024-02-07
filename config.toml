@@ -1,0 +1,52 @@
+# theme = "vsmore"
+# theme = "catppuccin_mocha"
+theme = "gruvmore"
+
+[editor]
+auto-format = false
+auto-save = true
+line-number = "relative"
+bufferline = "multiple"
+completion-trigger-len = 1
+color-modes = true
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+newline = "none"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+C-d = ["extend_to_line_bounds", "yank", "paste_after"]
+C-tab = [":buffer-next"]
+C-S-tab = [":buffer-previous"]
+"C-right" = [":buffer-next"]
+"C-left" = [":buffer-previous"]
+C-q = [":buffer-close"]
+"`" = ["select_all", "select_regex"]
+# "esc" = ["collapse_selection", ":w"]
+
+# [keys.select]
+# "esc" = ["collapse_selection", "normal_mode", ":w"]
+
+[keys.insert]
+C-right = ["move_next_word_end"]
+C-left = ["move_prev_word_start"]
+# "esc" = ["normal_mode", ":w"]
+
+# [keys.picker]
+# tab = "validate_picker_selection"
+
+[editor.file-picker]
+hidden = false

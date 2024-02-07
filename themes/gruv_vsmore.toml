@@ -1,0 +1,26 @@
+inherits = "vsmore"
+
+"constant" = { fg = "constant" }
+"type" = { fg = "yellow" }
+"type.enum.variant" = { fg = "#F8D603" }
+"interface" = { fg = "interface" }
+"keyword" = { fg = "red" }
+"function" = { fg = "function" }
+"function.macro" = { fg = "macro", modifiers = ["bold"] }
+"function.special" = { fg = "macro" }
+"function.builtin" = { fg = "macro" }
+"special" = { fg = "macro" }
+"type.builtin" = { fg = "red", modifiers = ["bold"] }
+"variable.parameter" = { fg = "light_gray" }
+
+"ui.virtual.whitespace" = { fg = "#2F2F2F" }
+
+[palette]
+red = "#E75141"
+# red = "#FB4934"
+yellow = "#FABD2F"
+function = "#E08349"
+interface = "#F5FF65"
+macro = "#beb7ff"
+constant = "#B18994"
+light_gray = "#D4D4D4"

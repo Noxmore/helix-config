@@ -1,0 +1,35 @@
+inherits = "gruvbox_dark_hard"
+
+"keyword" = { fg = "red", modifiers = ["italic"] }
+"type.builtin" = { fg = "red", modifiers = ["italic", "bold"] }
+"type.enum.variant" = { fg = "#26BBA0", modifiers = ["italic", "bold"] }
+"type" = { fg = "yellow", modifiers = ["bold"] }
+"interface" = { fg = "interface", modifiers = ["italic", "bold"] }
+"function.macro" = { fg = "macro", modifiers = ["italic", "bold"] }
+"function.special" = { fg = "macro_dim" }
+"special" = { fg = "macro_dim" }
+"function" = { fg = "function", modifiers = ["italic"] }
+"function.method" = { fg = "function" }
+"keyword.directive" = { fg = "macro_dim" }
+"variable.builtin" = { fg = "red", modifiers = ["italic"] }
+"string" = { fg = "string" }
+"namespace" = { fg = "namespace" }
+"operator" = { fg = "operator" }
+"punctuation.delimiter" = { fg = "punctuation" }
+"punctuation.bracket" = { fg = "punctuation" }
+"punctuation.special" = { fg = "punctuation" }
+
+"ui.bufferline.active" = { fg = "#f0f0f0", modifiers = ["underlined"] }
+
+[palette]
+red = "#FB4934"
+yellow = "#FABD2F"
+function = "#8FB749"
+interface = "#F5FF65"
+macro = "#C47BFF"
+macro_dim = "#beb7ff"
+string = "#2698BB"
+namespace = "#8881BE"
+# operator = "#8EC07C"
+operator = "#DCDCAA"
+punctuation = "#B4B4B4"
